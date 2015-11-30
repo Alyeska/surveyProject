@@ -1,6 +1,6 @@
 #surveyProject in R
 
-## script for this class project came from a long term rodent study collected from 1977 to 2002. Citation for the paper and data collected from this resource is below:
+## The custom-made script for this class project was created to analyze data from a long term rodent study collected from 1977 to 2002. Citation for the paper and data collected from this resource is below:
 
 S. K. Morgan Ernest, Thomas J. Valone, and James H. Brown. 2009. Long-term monitoring and experimental manipulation of a Chihuahuan Desert ecosystem near Portal, Arizona, USA. Ecology 90:1708.
 
