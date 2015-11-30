@@ -2,7 +2,7 @@
 
 # load library; these are already installed on personal computer, but will need to be installed if on different computer (install after #)
 #install.packages("ggplot2") # visualization package
-#install.packages("gapminder") # dataset
+#install.packages("dplyr") # dataset
 library(ggplot2)
 library(dplyr)
 
@@ -35,7 +35,7 @@ ggplot(data = weight, aes(x = species, y = weight)) + geom_boxplot()
 dev.off()
 
 
-## Is there a difference between species counts by year
+## Is there a difference between species counts by year?
 # create line chart for the three species
 pdf("figures/syLine.pdf")
 ggplot(Rei, aes(year), color = species) + geom_freqpoly(binwidth = 1) + facet_grid(~ species)
