@@ -48,7 +48,7 @@ aovWS # look at fit
 summary(aovWS) # summarize and show results
 
 
-## How does the female distribution change over time for R. megalotis (species Id = RM?
+## How does the female distribution change over time for R. megalotis (species ID = RM)?
 # select only females and years
 RMfem <- Rei %>%
   filter(species == "megalotis") %>%
