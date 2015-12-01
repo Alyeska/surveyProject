@@ -34,18 +34,18 @@ pdf("figures/swBoxplot.pdf")
 ggplot(data = weight, aes(x = species, y = weight)) + geom_boxplot()
 dev.off()
 
+# Statistical test
+#ANOVA
+aovWS <- aov(weight ~ species, data = Rei) # fit model
+aovWS # look at fit
+summary(aovWS) # summarize and show results
+
 
 ## Is there a difference between species counts by year?
 # create line chart for the three species
 pdf("figures/syLine.pdf")
 ggplot(Rei, aes(year), color = species) + geom_freqpoly(binwidth = 1) + facet_grid(~ species)
 dev.off()
-
-# Statistical test
-#ANOVA
-aovWS <- aov(weight ~ species, data = Rei) # fit model
-aovWS # look at fit
-summary(aovWS) # summarize and show results
 
 
 ## How does the female distribution change over time for R. megalotis (species ID = RM)?
