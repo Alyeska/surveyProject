@@ -10,4 +10,4 @@ S. K. Morgan Ernest, Thomas J. Valone, and James H. Brown. 2009. Long-term monit
 
 1) Is there a relationship between species and weight? This question was answered by using a boxplot (PDF file: swBoxplot). The same question was answered by using a statistical test, ANOVA. 
 2) Is there a difference between species counts by year? This question was answered by using a line graph (PDF file: syLine). 
-4) How does the female distribution change over time for R. megalotis (species Id = RM)? This question was answered by using a histogram (PDF file: RMfemaleHistogram).
+3) How does the female distribution change over time for R. megalotis (species Id = RM)? This question was answered by using a histogram (PDF file: RMfemaleHistogram).
